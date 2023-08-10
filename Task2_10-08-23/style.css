@@ -10,7 +10,7 @@
     height: 100px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: transform .3s;
+    transition: transform .4s;
 }
 .box-1{
     top: 10px;
@@ -46,14 +46,14 @@ a{
 }
 
 .box-1:hover{
-    transform: scale(1.05);
+    transform: scale(1.07);
     background-image: linear-gradient(red , yellow);
 }
 .box-2:hover{
-    transform: scale(1.05);
+    transform: scale(1.07);
     background-image: linear-gradient( rgb(0, 94, 255) , lightblue);
 }
 .box-3:hover{
-    transform: scale(1.05);
+    transform: scale(1.07);
     background-image: linear-gradient(rgb(206, 0, 193), lightpink);
 }
