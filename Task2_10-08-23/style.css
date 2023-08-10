@@ -55,5 +55,8 @@ a{
 }
 .box-3:hover{
     transform: scale(1.07);
-    background-image: linear-gradient(rgb(206, 0, 193), lightpink);
+    background-image: linear-gradient(rgb(206, 0, 193), lightpink); 
+}
+.text-gray:hover{
+    color: #fff;
 }
