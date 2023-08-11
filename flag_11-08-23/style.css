@@ -1,0 +1,127 @@
+section{
+    display: flex;
+}
+.main{
+    width: 420px;
+    height: 312px;
+    margin: auto;
+    position: relative;
+    top: -44px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* Indian flag title */
+h1{
+    text-align: center;
+}
+
+/* Orange color style */
+.orange{
+    width: 420px;
+    height: 104px;
+    background-color: rgb(255, 153, 51);
+    position: absolute;
+    top: 0;
+}
+/* white color style */
+.white{
+    width: 420px;
+    height: 104px;
+    background-color: white;
+    position: absolute;
+    top: 104px;
+}
+
+/* green color styling */
+.green{
+    width: 420px;
+    height: 104px;
+    background-color: rgb(19, 136, 8);
+    position: absolute;
+    top: 210px;  
+}
+
+/* chakra styling */
+.chakra{
+    top: 3px;
+    left: 162px;
+    height: 95px;
+    width: 95px;
+    border: 3px solid rgb(0, 0, 128);
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* Lines inside chakra */
+.chakra .line {
+    height: 100%;
+    width: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+}
+
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(150deg);
+}
+.line:nth-child(11){
+    transform: rotate(165deg);
+}
+.line:nth-child(12){
+    transform: rotate(180deg);
+}
+
+/* pool of flag */
+.stick{
+    height: 500px;
+    width: 10px;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    left: 409px;
+    border-radius: 20%;
+}
+
+/* chakra rotation */
+.chakra {
+	animation-name: chakra;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+
+@keyframes chakra {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
