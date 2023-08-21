@@ -1,0 +1,47 @@
+/* Making the items center using margin */
+/* .using-margin{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(5, 250, 168);
+    margin: auto;
+} */
+
+/* Making the items center using margin */
+/* .container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.using-flex{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+} */
+
+/* Making the items center using grid */
+/* .container-grid{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.using-grid{
+    background-color: rgb(255, 0, 0);
+    width: 250px;
+    height: 250px;
+} */
+
+/* making items center using position */
+.container-position{
+    position: relative;
+    height: 100vh;
+}
+.using-position{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    width: 250px;
+    height: 250px;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
